@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    padding: 30px;
+    background-color: #ffffff00;
+}
+header ul{
+    width: 400px;
+    float: right;
+}
+header div{
+    padding-right: 270px;
+}
+header ul a{
+  padding: 18px 10px;
+    background-color: #79B331;
+    border-radius: 1px 20px;
+}
+body{
+    background-image: url(../img/background.png);
+    background-size: 100%;
+}
+main p{
+    float: right;
+    margin-top: 68px;
+    font-size: 17px;
+    margin-right: 40px;
+}
+.martkutxedi{
+    width: 400px;
+    height: 200px;
+   margin-left: 890px;
+   margin-top: 98px;
+}
+
+@keyframes ferisshecvla {
+    0% {background-color: #280030;}
+    35%{background-color: #b300d7;}
+    70% {background-color: #f2b2ff;}
+    100% {background-color: #280030;}
+}
+
+.wre{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #79B331;
+    position: relative;
+    animation: wretriali 2s infinite;
+    /* box-shadow: 0 0 20px #280030; */
+}
+
+@keyframes wretriali {
+    0%{top:0;left:0;}
+    25%{top:0;left: 400px;}
+    50%{top:250px; left: 400px;}
+    75%{top: 250px; left:0;}
+    100%{top:0;left:0;}
+}
+.countdown{
+    margin-left: 107px;
+    padding-top: 38px;
+    width: 226px;
+    height: 50px;
+    display: flex;
+    font-size: 29px;
+}
+.main{
+    width: 1197px;
+    height: 500px;
+    margin-left: 300px;
+    margin-top: 144px;
+    background-color: #f2b2ff00;
+}
+.long{
+    width: 1px;
+    height: 498px;
+    background-color: #C4C4C4;
+    margin-left: 700px;
+}
+.fotoli1{
+    float: right;
+width: 500px;
+height: 134px;
+background-color: #c4c4c400;
+margin-right: 86px;
+padding-left: 40px;
+}
+.fotoli11{
+    width: 500px;
+    height: 134px;
+    margin-top: -52px;
+    margin-right: 86px;
+padding-left: 40px;
+float: right;
+}
+.leaf1{
+    width: 70px;
+    height: 70px;
+    border-radius: 1px 34px;
+    background-color: #C4C4C4;
+   margin-left: 475px;
+   margin-top: 57px;
+}
+.fotoli2{
+    float: left;
+    width: 500px;
+    height: 134px;
+    background-color: #c4c4c400;
+    margin-right: 86px;
+    padding-left: 101px;
+}
+.fotoli22{
+    float: left;
+    width: 500px;
+    height: 134px;
+    background-color: #c4c4c400;
+    margin-right: 86px;
+    padding-left: 101px;
+    margin-top: -23px;
+}
+.leaf2{
+    width: 70px;
+    height: 70px;
+    border-radius: 1px 34px;
+    background-color: #C4C4C4;
+   margin-left: -101px;
+   margin-top: 32px;
+   float: left;
+   rotate: 271deg;
+}
+.leaf22{
+    width: 70px;
+    height: 70px;
+    border-radius: 1px 34px;
+    background-color: #C4C4C4;
+   margin-left: -101px;
+   margin-top: 70px;
+   float: left;
+   rotate: 271deg;
+}
